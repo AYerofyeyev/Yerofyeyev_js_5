@@ -27,7 +27,6 @@ function startStopwatch() {
 function stopStopwatch() {
   swapStop();
   clearTimeout(i);
-  console.log("s =" + s);
 }
 
 function clearStopwatch() {
@@ -87,7 +86,7 @@ stopButton.style.width = "200px";
 
 var clearButton = document.createElement("button");
 clearButton.type = "button";
-clearButton.className = "pure-button";
+clearButton.className = "button-warning pure-button";
 clearButton.innerHTML = "ОБНУЛИТЬ";
 clearButton.style.float = "right";
 clearButton.style.width = "200px";
